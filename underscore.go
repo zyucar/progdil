@@ -13,7 +13,7 @@ func ReplaceUnderscoreWithScape(str string) string {
 			list[i] = " "
                 }
         }
-        return(strings.Join(list, ""))
+        return strings.Join(list, "")
 }
     
 func main() {
