@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func ReplaceUnderscoreWithScape(str string) string {
+func ReplaceUnderscoreWithSpace(str string) string {
         list := strings.Split(str, "")
 
         for i := 1 ; i < len(list)-1 ; i++ {
@@ -20,6 +20,6 @@ func main() {
 	var word string
 	fmt.Println("Bir kelime giriniz.")
 	fmt.Scanf("%s", &word)
-	fmt.Println(ReplaceUnderscoreWithScape(word))
+	fmt.Println(ReplaceUnderscoreWithSpace(word))
 }
 
